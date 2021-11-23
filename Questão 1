@@ -10,6 +10,6 @@ void main()
  
     area = largura * comprimento;
     
-    printf("AREA = %f m2 \n", area);
+    printf("AREA = %f m2", area);
  
 }
