@@ -12,7 +12,7 @@ void main()
     valor_arrecadado = (n_paes_vendidos * 0.12) + (n_broas_vendidas * 1.50);
     valor_poupanca = valor_arrecadado * 10/100;
 
-    printf("VALOR ARRECADADO COM A VENDA DOS PAES E BROAS NESTE DIA = R$ %.2f", valor_arrecadado);
-    printf("VALOR A SER GUARDADO NA POUPANÇA NESTE DIA = R$ %.2f", valor_poupanca);
+    printf("VALOR ARRECADADO COM A VENDA DOS PAES E BROAS NESTE DIA = R$ %.2f ", valor_arrecadado);
+    printf("VALOR A SER GUARDADO NA POUPANÇA NESTE DIA = R$ %.2f ", valor_poupanca);
 
 }
