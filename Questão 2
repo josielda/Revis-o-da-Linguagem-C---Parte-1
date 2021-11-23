@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+void main()
+{
+    float base1, base2, altura_trapezio, area_trapezio;
+    
+    printf("BASE MAIOR = "); scanf("%f", &base1);
+    printf("BASE MENOR = "); scanf("%f", &base2);
+    printf("ALTURA DO TRAPÉZIO = "); scanf("%f", &altura_trapezio);
+    
+    area_trapezio = (base1 + base2) * altura_trapezio / 2;
+
+    printf("AREA = %f m2 \n", area_trapezio);
+}
