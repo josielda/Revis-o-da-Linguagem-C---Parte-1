@@ -1,0 +1,14 @@
+#include<stdio.h>
+#define pesoprato 2
+#define quilo 12.00
+
+void main()
+{
+    float valortotal, peso;
+    printf("PESO DO PRATO PRONTO:\n"); scanf("%f",&peso);
+    
+    valortotal = (quilo*peso)-pesoprato;
+    
+    printf("VALOR A PAGAR PELA REFEIÇÃO: R$%.2f.", valortotal);
+    
+}
