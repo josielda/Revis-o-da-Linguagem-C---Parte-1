@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+void main()
+{
+    
+    int n_cavalos, n_ferraduras;
+    
+    printf("NÚMERO DE CAVALOS = "); scanf("%i", &n_cavalos);
+    
+    n_ferraduras = n_cavalos * 4;
+
+    printf("QUANTIDADE DE FERRADURAS NECESSARIAS = %i", n_ferraduras);
+
+}
