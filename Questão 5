@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+void main()
+{
+    
+    int n_paes_vendidos, n_broas_vendidas; 
+    float valor_arrecadado, valor_poupanca;
+    
+    printf("NÚMERO DE PAES VENDIDOS = "); scanf("%i", &n_paes_vendidos);
+    printf("NÚMERO DE BROAS VENDIDAS = "); scanf("%i", &n_broas_vendidas);
+    
+    valor_arrecadado = (n_paes_vendidos * 0.12) + (n_broas_vendidas * 1.50);
+    valor_poupanca = valor_arrecadado * 10/100;
+
+    printf("VALOR ARRECADADO COM A VENDA DOS PAES E BROAS NESTE DIA = R$ %.2f", valor_arrecadado);
+    printf("VALOR A SER GUARDADO NA POUPANÇA NESTE DIA = R$ %.2f", valor_poupanca);
+
+}
